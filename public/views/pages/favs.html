@@ -1,0 +1,21 @@
+<div class="col-xs-12 favrepeater" ng-repeat="gif in favCtrl.favlist">
+  <img class="col-xs-4" ng-src={{gif.url}} />
+  <span>{{gif.comment}}</span>
+  <!-- <button ng-click="editComment()">submit edit</button> -->
+
+</div>
+
+
+
+<div class="stationary col-xs-8" >
+  <h4>
+     GIF GIF GIF
+  </h4>
+  <div class="col-xs-8 col-xs-offset-2">
+    <button><a href="/">Take me to search</a></button>
+    <p>
+      Favs:{{favCtrl.favcount}}
+    </p>
+  </div>
+
+</div>

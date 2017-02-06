@@ -1,0 +1,5 @@
+CREATE TABLE favs (
+  id SERIAL PRIMARY KEY,
+  comment text,
+  url text
+);
